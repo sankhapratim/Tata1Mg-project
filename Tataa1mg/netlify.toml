@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/tatamg.html"
+status=200
