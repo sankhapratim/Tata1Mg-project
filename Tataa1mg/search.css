@@ -1,0 +1,82 @@
+#search1{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height:auto;
+    padding:5px;
+    border-bottom:solid 1px rgb(225, 220, 220);
+    background-color: white;
+   
+}
+#city1{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border:solid 0px;
+    padding:5px;
+    margin-left: 35px;
+    background-color: #f1f4f6;
+}
+#search1 input{
+    border:none;
+    outline:none;
+    background-color: #f1f4f6;
+    color:grey;
+    margin:none;
+}
+#product1{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    border:solid 0px;
+    background-color:#f1f4f6;
+}
+#product1 input{
+    width:500px;
+    /* margin:none; */
+    margin-left: 20px;
+}
+#qo{
+    width:38%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:solid 0px;
+    align-items:center;
+    font-size: 12px;
+}
+#qo i{
+    color:#9F5650;
+    font-size:16px;
+}
+#search1 i:hover{
+   cursor:pointer;
+}
+#qo button{
+    width:110px;
+    height:30px;
+    border:none;
+    color:white;
+    background-color:#ff6f61;
+    border-radius: 5px;
+}
+@media all and (max-width: 1000px) and (min-width:600px){
+    #search1{
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    #qo{
+        width:100%;
+    }
+    
+}
+@media all and (max-width: 600px) and (min-width:300px){
+    #search1{
+        flex-direction:column;
+        justify-content:center;
+    }
+    #qo{
+        width:100%;
+    }
+}
